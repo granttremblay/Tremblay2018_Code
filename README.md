@@ -1,8 +1,7 @@
-### Code, calculations, and notes for Tremblay et al. 2016b, ApJ
-
 
 ![A2597_MUSE_movie](Misc/A2597_movie.gif)
 
+### Code, calculations, and notes for Tremblay et al. 2016b, ApJ
 
 This repository houses all of the codes and calculations (contained in Jupyter Python notebooks as well as simple Python scripts) associated with our recent paper publishing ALMA and MUSE observations of the cool core brightest cluster galaxy in Abell 2597. 
 
@@ -10,7 +9,17 @@ Specifically, it includes:
 
 #### Reduction Codes
 
+* `retrieve_[alma/muse]_data.[py/sh]` | Hopefully self-explanatory. If you run into trouble with these, the data is, frankly, just as easily accessible from the [ALMA](http://almascience.nrao.edu/aq/) and [ESO](http://archive.eso.org/cms.html) archives. Both datasets are totally public. 
 
+* `alma_reduce_data.py` | Script to reduce the raw ASDMs (which you download using `retrieve_alma_data.py`) to calibrated measurement sets. These scripts must be run with [CASA] version 4.1, in order to ensure complete reproduction of the data cubes presented in this paper (although later versions of CASA will very likely also work, absent this guarantee). This script also calls `alma_fluxcal_data.py`. 
+
+* `alma_make_cubes.py` | This script will convert a calibrated measurement set ()
+
+
+
+  
+
+First, you must obtain the raw data (which will be delivered in ASDM format) from the [ALMA Science Archive] (search for Project Code 2012.1.00988.S). You may then create data products by running `reduction_script.py` and `make_cubes.py` (in that order). Note that running the reduction script will take roughly 24 hours on a reasonably high-end workstation with 64 GB of RAM and a 12 core processor. Machines with fewer cores and/or ram may take (much) longer. 
 
 
 #### Analysis Codes
