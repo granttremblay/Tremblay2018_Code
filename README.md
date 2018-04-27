@@ -1,7 +1,7 @@
 
 ![A2597_MUSE_movie](Misc/A2597_movie.gif)
 
-### Code, calculations, and notes for Tremblay et al. 2016b, ApJ
+### Code, calculations, and notes for Tremblay et al. 2018, ApJ
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1233825.svg)](https://doi.org/10.5281/zenodo.1233825)
 
 
