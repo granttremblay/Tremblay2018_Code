@@ -2,6 +2,8 @@
 ![A2597_MUSE_movie](Misc/A2597_movie.gif)
 
 ### Code, calculations, and notes for Tremblay et al. 2016b, ApJ
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1233825.svg)](https://doi.org/10.5281/zenodo.1233825)
+
 
 This repository houses all of the codes and calculations (contained in Jupyter Python notebooks as well as simple Python scripts) associated with our recent paper publishing ALMA and MUSE observations of the cool core brightest cluster galaxy in Abell 2597. 
 
